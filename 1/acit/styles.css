@@ -1,0 +1,8 @@
+body{font-family:Arial, Sans Sherif}
+
+#container{ height: 120px; width:520px;background:white;margin:o auto; border: 1px solid; }
+	#container .image{ width:120px; float:left; margin-top:5px; margin-left:5px}
+	#container .info{ padding:0; float:none; margin-left:135px; margin-top:-8px; font-size: 9px; color: red; }
+	#container .judul{ padding: 0px; margin-top: -15px; margin-left: 135px;font-size:10px}
+	#container .tagline{ padding: 0px; margin-top: -10px; margin-left: 135px;font-size:12px; }
+	

@@ -1,0 +1,59 @@
+/*GLOBAL RESET*/
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure,  footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video { margin:0; padding:0; border:0; outline:0; font-size:100%;  vertical-align:baseline; background:transparent;}        
+ article, aside, details, figcaption, figure,footer, header, hgroup, menu, nav, section {  display:block;}ul, ol { list-style:none; }
+blockquote, q { quotes:none; } blockquote:before, blockquote:after, q:before, q:after { content:''; content:none; }
+ins { background-color:#ff9; color:#000; text-decoration:none; } mark { background-color:#ff9; color:#000; font-style:italic; font-weight:bold; } del { text-decoration: line-through; } abbr[title], dfn[title] { /*border-bottom:1px dotted;*/ cursor:help; } table { border-collapse:collapse; border-spacing:0; } hr { display:block; height:1px; border:0; border-top:1px solid #ccc; margin:1em 0; padding:0; }
+ul, ol { /*margin-left: 1.8em;*/ } ol { list-style-type: decimal; }
+nav ul, nav li { margin: 0; }  small { font-size: 85%; } strong, th { font-weight: bold; } td, td img { vertical-align: top; } 
+sub { vertical-align: sub; font-size: smaller; } sup { vertical-align: super; font-size: smaller; }
+pre { padding: 15px; } pre, code { white-space: pre; /* CSS2 */ white-space: pre-wrap; /* CSS 2.1 */ white-space: pre-line; /* CSS 3 (and 2.1 as well, actually) */ word-wrap: break-word; /* IE */}
+input, select { vertical-align:middle; } .ie6 input { vertical-align: text-bottom; } textarea { overflow: auto; } input[type="radio"] { vertical-align: text-bottom; } input[type="checkbox"] { vertical-align: bottom; } .ie7 input[type="checkbox"] { vertical-align: baseline; }
+label, input[type=button], input[type=submit], button { cursor: pointer; }
+button, input, select, textarea { margin: 0; }
+input:invalid, textarea:invalid {      border-radius: 1px;   -moz-box-shadow: 0px 0px 5px red;  -webkit-box-shadow: 0px 0px 5px red;    box-shadow: 0px 0px 5px red;}
+.ie7 img { -ms-interpolation-mode: bicubic; }
+.ir { display: block; text-indent: -999em; overflow: hidden; background-repeat: no-repeat; text-align: left; direction: ltr; }
+.clearfix:before, .clearfix:after {content: "\0020"; display: block; height: 0; visibility: hidden;  } .clearfix:after { clear: both; } .clearfix { zoom: 1; }
+img {border:none; }
+a { margin:0; padding:0; font-size:100%; vertical-align:baseline; background:transparent; } a:link , a:hover , a:visited{text-decoration:none;outline: none;  } a:link { -webkit-tap-highlight-color: #e53b2c; } 
+
+h1, h2, h3, h4, h5, h6 { font-weight:normal;  display:inline; font-size:100%; text-decoration:none;} 
+
+/*GLOBAL STYLE*/
+body{font: normal 13px/120% helvetica, arial, sans-serif ; padding: 0; margin: 0; color:#424243; width: 100%; color: #4a4a4a; }
+
+
+.reset{
+	width: 100%;
+	height: 1%;
+	font-size: 0;
+	clear: both;
+}
+
+body{
+	background: #e5e4e4;
+}
+
+.container{
+	width: 924px;
+	margin: 0 auto;
+}
+
+.container .header .logo{
+	width: 579px;
+	float:right;
+}
+
+.container .header .nama{
+	margin-top: 30px;
+	float: left;
+}
+
+.container .navigasi a{
+	margin: 0 10px;
+}
+
+.navhijau{
+	color: yellow; font-size: 10px;
+}
+
